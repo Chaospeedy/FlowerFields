@@ -98,10 +98,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: e00a3ee2f0620bd43b26b083b5c190a6, type: 2}
-  innerSize: 30
-  outerSize: 100
-  height: 5
-  isFlatTopped: 0
+  innerSize: 0.25
+  outerSize: 0.5
+  height: 0.05
+  isFlatTopped: 1
 --- !u!1 &4539297483022344647
 GameObject:
   m_ObjectHideFlags: 0
@@ -200,6 +200,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: e00a3ee2f0620bd43b26b083b5c190a6, type: 2}
   innerSize: 0
-  outerSize: 30
-  height: 5
-  isFlatTopped: 0
+  outerSize: 0.25
+  height: 0.05
+  isFlatTopped: 1

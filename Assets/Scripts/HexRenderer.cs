@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Drawing;
@@ -51,11 +52,6 @@ public class HexRenderer : MonoBehaviour
         DrawMesh();
     }
 
-    public void OnValidate(){
-        if(Application.isPlaying){
-            DrawMesh();
-        }
-    }
 
     public void DrawMesh(){
         DrawFaces();
@@ -133,4 +129,5 @@ public class HexRenderer : MonoBehaviour
 
         return new Vector3((size * Mathf.Cos(angle_rad)), height, size * Mathf.Sin(angle_rad));
     }
+
 }
